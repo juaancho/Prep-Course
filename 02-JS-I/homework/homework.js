@@ -7,7 +7,7 @@ const nuevaString = "hola";
 const nuevoNum = 24;
 
 // Crea una variable booleana:
-const nuevoBool = 0;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,10 +28,10 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var devolverString = "hola";
-  return devolverString;
-  
-}
+  var palabra = (str);
+  return palabra;
+  }
+devolverString ("hola")
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -83,7 +83,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1 === str2) { return true;
-  }
+  }  else 
   return false; 
 }
    tienenMismaLongitud (22, 22)
