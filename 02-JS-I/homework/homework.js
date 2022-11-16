@@ -141,13 +141,15 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  respuestaelvaralcuadrado=Math.pow(num,2);
+  return respuestaelvaralcuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  solucion=Math.pow(num,3);
+  return solucion;
 }
 
 function elevar(num, exponent) {
