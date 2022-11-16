@@ -7,7 +7,7 @@ const nuevaString = "hola";
 const nuevoNum = 24;
 
 // Crea una variable booleana:
-const nuevoBool = "true";
+const nuevoBool = "booleano";
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   var devolverString = "hola";
-  return devolverString
+  return devolverString;
   
 }
 
@@ -37,8 +37,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var sumadedosnumeros = y + x
-  return sumadedosnumeros
+  var sumadedosnumeros = y + x;
+  return sumadedosnumeros;
 }
 suma (4, 5)  
 
@@ -154,26 +154,35 @@ function elevarAlCubo(num) {
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
-  // Tu código:
-  
-}
+  // Tu código: 
+  resultado = Math.pow (num, exponent);
+  return resultado
+  }
+  elevar (3, 4)
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-   
-}
+  redondeo = Math.round (num)
+  return redondeo
+  }
+redondearNumero (6.5)
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+  redondeohaciaarriba = Math.ceil (num)
+  return redondeohaciaarriba
   
 }
+redondearHaciaArriba (6.0001)
+
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  numeroalazar = Math.random (0 , 1);
+  return numeroalazar
 }
 
 function esPositivo(numero) {
