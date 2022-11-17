@@ -82,8 +82,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 === str2) { return true;
-  }  else 
+  var str1 = 22
+  var str2 = 22
+  if (str1 == str2) {  
+    return true;
+  }
   return false; 
 }
    tienenMismaLongitud (22, 22)
@@ -190,9 +193,8 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-
-  
 }
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
