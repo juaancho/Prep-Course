@@ -5,7 +5,9 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x > y && 60 === 60) {return y} 
+  var x = 60
+  var y = 40
+  if (x > y) {return y} 
   else 
   {return x}
 }
