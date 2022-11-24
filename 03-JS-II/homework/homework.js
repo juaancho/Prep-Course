@@ -99,7 +99,8 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   if (numero % 3 === 0 && numero % 5 ===0) {return "fizzbuzz";}
   if (numero % 3 === 0) {return "fizz";}
-  if (numero % 5 === 0) { return "buzz";}
+  if (numero % 5 === 0) { return "buzz";} 
+  else {return numero}
 }
 
 function operadoresLogicos(num1, num2, num3) {
