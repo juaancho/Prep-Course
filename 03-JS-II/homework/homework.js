@@ -87,7 +87,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero > Math.floor (6) || numero  < Math.floor (-1) ) {return true}
+  if (numero > Math.floor (0) || numero  < Math.floor (-1) ) {return true}
   else 
   {return false}
 }
