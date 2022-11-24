@@ -39,8 +39,8 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
 if (idioma === aleman) {return "Guten Tag!";}
-if (idioma === mandarin) {return "Ni Hao!"}
-if (idioma === ingles) {return "Hello!"}
+else if (idioma === mandarin) {return "Ni Hao!"}
+else if (idioma === ingles) {return "Hello!"} else 
 return "hola!"
 }
 
