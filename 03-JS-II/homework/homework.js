@@ -156,6 +156,7 @@ return tabla}
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  // return numero > 99 && numero < 1000; como opcion mas rapida y sencilla 
  if (numero.toString().length == 3) return true;
  return false;
 }
@@ -164,6 +165,13 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+var i = 0
+  do{
+    i += 1
+    numero = i + 5;
+  }while (i < 8);{
+    return numero 
+  }
 }
 
 
