@@ -1,10 +1,10 @@
 // No cambies los nombres de las funciones.
-
+//[6]
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-if (array = ["hola", 1 , 2 , 3 , 4])
-return array
+var array = [0]
+return array 
 }
 
 
