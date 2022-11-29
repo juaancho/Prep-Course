@@ -1,4 +1,7 @@
 // No cambies los nombres de las funciones.
+
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
+
 //[6]
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
@@ -10,6 +13,7 @@ return array [0]
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  return array [array.length-1]
 }
 
 
