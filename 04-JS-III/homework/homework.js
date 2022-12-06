@@ -64,7 +64,7 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var palabras = ["hello ", "world"]
-  return palbras [0 , 1]
+  return palabras [0 , 1]
 }
 
 
