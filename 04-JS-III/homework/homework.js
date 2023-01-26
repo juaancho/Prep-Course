@@ -134,7 +134,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
 var cont = 0;
 for (let i=0; i < arreglo.length ; i++);{
-  if (arreglo [i] > 18);{
+  if (arreglo [i] > 18); {
     cont++;
   }
 }
@@ -147,7 +147,9 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
+  if (numeroDeDia === 1 || numeroDeDia === 7)
+  return "Es fin de semana";
+  else return "Es dia laboral"
 } 
 
 
