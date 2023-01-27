@@ -168,7 +168,13 @@ function empiezaConNueve(n) {
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
-  //Escribe tu código aquí  
+  //Escribe tu código aquí
+  let numero = arreglo  
+  for (let i=0; i < arreglo.length; i++){
+    if (numero === arreglo [i]){return true
+    }
+    return false
+  } 
   
 } 
 
